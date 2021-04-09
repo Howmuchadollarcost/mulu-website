@@ -1,13 +1,251 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+
+* {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: #3f3f3f;
+  overflow-y: scroll;
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Headers */
+.headerContainer{
+   background: #fff;
+}
+
+.logo{
+  width: 90px;
+  background: transparent;
+}
+
+@media screen and (min-width: 576px) {
+  .headerContainer {
+    background: url("../src/containers/Header/test.png");
+    background-size: cover;
+    background-position-x: center;
+  }
+}
+
+/************/
+
+/* Bio */
+
+.bio {
+  padding: 0 0 10rem 0;
+}
+.bio-about {
+  font-size: 1.1rem;
+  max-width: 25em;
+  font-weight: 500;
+}
+
+.fa-arrow-down {
+  font-size: 1.5rem !important;
+  color: #7311f2;
+}
+
+/************/
+
+.h-100 {
+  height: 100% !important;
+}
+
+/* Portfolio*/
+
+.portfolio-title {
+  font-weight: 600;
+}
+.portfolio {
+  padding: 2rem 0 2rem 0;
+  margin: 3em 0;
+}
+.portfolio-icon {
+  color: #7311f2;
+  font-size: 2em !important;
+}
+
+img {
+  background-color: #e4ffff;
+}
+
+.portfolio_card {
+  border-radius: 5px;
+}
+
+.see_more {
+  color: #a0aec0;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+	border-radius: 8px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none !important;
+}
+
+.see_more:hover {
+  color: #718096;
+  box-shadow: 0px 10px 15px #ebf6ff;
+	text-decoration: none;
+	outline:none;
+}
+/**********/
+
+/* contact */
+
+.contact-info {
+  padding: 5rem 1rem;
+  background: white;
+  border-radius: 20px;
+}
+
+.contact-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.contact-description {
+  color: #4a5568;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.contact-description > a {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.contact-social {
+  margin-top: 4rem;
+}
+
+.contact-icon {
+  color: #7311f2;
+  font-size: 2rem !important;
+}
+
+.contact-social-icon {
+  margin-top: 4rem;
+  color: #cbd5e0;
+  font-size: 2rem;
+  font-size: 2rem !important;
+}
+
+.contact-social-icon:hover {
+  color: #9043f5;
+}
+
+
+.contact-social > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+@media (min-width: 576px) {
+  .contact-info {
+    box-shadow: 0px 240px 35px rgba(115, 17, 242, 0.11);
+  }
+}
+
+/**************/
+
+/* footer */
+.footer {
+  padding: 2rem 0;
+  background: #7311f2;
+}
+
+.footer .logo {
+  color: #fff;
+}
+
+.made_by {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.copyright {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+/****************/
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+
+.svg-inline--fa.fa-w-20 {
+  width: 1.25em;
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (max-width: 991.9px) {
+  .navbar {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+@media (max-width: 767.9px) {
+  .container-fluid,
+  .navbar {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .container-fluid {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
