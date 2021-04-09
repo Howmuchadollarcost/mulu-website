@@ -10,7 +10,7 @@ export default function ProjectCard({ imgsrc, link, display,title}) {
 				</Card>
 			</a>
 			<a className="project_title" href={title} rel="noopener noreferrer" target="_blank">{title ? 'Github': ''}</a>
-			<a className="project_title" href={link} rel="noopener noreferrer" target="_blank">{title ? 'Link': ''}</a>
+			<a className="project_title" href={link} rel="noopener noreferrer" target="_blank">Link</a>
 		</Col>
 	)
 }

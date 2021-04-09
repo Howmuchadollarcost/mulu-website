@@ -24,7 +24,7 @@ export const projects = [{
 {
 	key: 5,
 	imgsrc: require("../../assets/reddit1.png"),
-	link: "https://howmuchadollarcost.github.io/reddit-posts/",
+	link: "https://gitlab.com/Mrblackdub/reactnative-cinema",
 	title: "Cinema Time"
 }
 ]
