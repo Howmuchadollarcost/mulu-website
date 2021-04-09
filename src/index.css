@@ -98,6 +98,20 @@ img {
 	text-decoration: none;
 	outline:none;
 }
+
+
+.project_title {
+  color: #a0aec0;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+	border-radius: 8px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none !important;
+	margin-bottom: 10px;
+}
 /**********/
 
 /* contact */

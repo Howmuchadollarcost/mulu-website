@@ -34,10 +34,10 @@ export default function Portfolio() {
 					</Col>
 				</Row>
 				<Row>
-					<ProjectCard key={projects[0].key} imgsrc={projects[0].imgsrc} link={projects[0].link} />
-					<ProjectCard key={projects[1].key} imgsrc={projects[1].imgsrc} link={projects[1].link} />
-					<ProjectCard display={show ? 'block' : 'none'} key={projects[2].key} imgsrc={projects[2].imgsrc} link={projects[2].link} />
-					<ProjectCard display={show ? 'block' : 'none'} key={projects[3].key} imgsrc={projects[3].imgsrc} link={projects[3].link} />
+					<ProjectCard key={projects[0].key} imgsrc={projects[0].imgsrc} link={projects[0].link} title={projects[0].title} />
+					<ProjectCard key={projects[1].key} imgsrc={projects[1].imgsrc} link={projects[1].link} title={projects[1].title} />
+					<ProjectCard display={show ? 'block' : 'none'} key={projects[2].key} imgsrc={projects[2].imgsrc} link={projects[2].link} title={projects[2].title} />
+					<ProjectCard display={show ? 'block' : 'none'} key={projects[3].key} imgsrc={projects[3].imgsrc} link={projects[3].link} title={projects[3].title} />
 				</Row>
 				<Row>
 					<Col className="mt-5 text-center">

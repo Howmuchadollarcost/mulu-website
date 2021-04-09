@@ -26,7 +26,7 @@ export default function index() {
 							<h3 className="contact-title mb-3">Get in touch</h3>
 							<p className="contact-description">
 								Thanks for taking the time to reach out <br />
-                You can send me an <a href="mailto:muluberg@gmail.com">email</a> or take a look at my <a href="../">resume</a>
+                You can send me an <a href="mailto:muluberg@gmail.com">email</a> or take a contact me on +4740945498
 							</p>
 							<div className="contact-social">
 								<a href="https://github.com/Howmuchadollarcost">

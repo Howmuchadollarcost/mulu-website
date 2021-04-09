@@ -25,7 +25,7 @@ export default function index() {
 
                                 <div className="bio-about mb-5">
                                     <p className="mb-3" style={{fontSize:"1.1em"}}> 
-                                        I am a 24 year old Norway based fullstack developer with 2 years of professional experience. 
+                                        I am a 25 year old Norway based fullstack developer with 2 years of professional experience. 
                                     </p>
                                 </div>
 
